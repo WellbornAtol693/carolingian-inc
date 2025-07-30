@@ -3,7 +3,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import { UnifrakturCook } from 'next/font/google'
-import Footer from '@/components/footer'
+import Footer from '@/components/Footer'
 
 
 
