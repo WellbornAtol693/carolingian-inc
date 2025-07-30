@@ -13,22 +13,24 @@ export default function Home() {
       <section className="w-full border-b border-gold shadow-md py-2">
         <header className="max-w-7xl mx-auto px-4 py-3 flex items-center relative">
           {/* Center Title */}
-         <h1 className="font-serif absolute left-1/2 transform -translate-x-1/2 text-lg sm:text-5xl font-bold text-gold">
-            <Link href='/'>Carolingian Inc.</Link>
-          </h1>
+    <h1 className="absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 
+      text-base sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl 
+      font-serif font-bold text-gold whitespace-nowrap">
+      <Link href="/">Carolingian Inc.</Link>
+    </h1>
 
           {/* Nav Tabs */}
-          <nav className="hidden sm:flex space-x-4 text-gold ml-auto font-serif z-10">
-            <Link href="/" className="hover:text-white transition">Home</Link>
-            <Link href="/services" className="hover:text-white transition">Services</Link>
-            <Link href="/invest" className="hover:text-white transition">Invest</Link>
-            <Link href="/contact" className="hover:text-white transition">Contact</Link>
-          </nav>
+          <nav className="hidden sm:flex space-x-4 font-serif text-gold z-10 ml-auto">
+      <Link href="/" className="hover:text-white transition">Home</Link>
+      <Link href="/services" className="hover:text-white transition">Services</Link>
+      <Link href="/invest" className="hover:text-white transition">Invest</Link>
+      <Link href="/contact" className="hover:text-white transition">Contact</Link>
+    </nav>
         </header>
       </section>
 
       {/* HERO SECTION */}
-      <section className="relative w-full h-[100vh] sm:h-[90vh] overflow-hidden">
+      <section className="relative w-full h-[100vh] overflow-hidden">
   {/* Background Image */}
   <Image
     src="/hero.PNG"

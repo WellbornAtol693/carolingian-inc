@@ -62,10 +62,13 @@ export default function Services() {
       {/* TOP HEADER */}
       <section className="w-full border-b border-gold shadow-md py-2">
         <header className="max-w-7xl mx-auto px-4 py-3 flex items-center relative">
-          <h1 className="font-serif absolute left-1/2 transform -translate-x-1/2 text-lg sm:text-5xl font-bold text-gold">
-            <Link href="/">Carolingian Inc.</Link>
-          </h1>
-          <nav className="hidden sm:flex space-x-4 text-gold ml-auto font-serif z-10">
+    <h1 className="absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 
+      text-base sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl 
+      font-serif font-bold text-gold whitespace-nowrap">
+      <Link href="/">Carolingian Inc.</Link>
+    </h1>
+
+          <nav className="hidden sm:flex space-x-4 text-gold text-sm ml-auto font-serif z-10">
             <Link href="/" className="hover:text-white transition">Home</Link>
             <Link href="/services" className="hover:text-white transition">Services</Link>
             <Link href="/invest" className="hover:text-white transition">Invest</Link>
@@ -76,7 +79,7 @@ export default function Services() {
 
       {/* HERO SECTION */}
       <section className="flex flex-col md:flex-row w-full border-b border-gold bg-[#0A1D3C]">
-        <div className="w-full md:w-5/12 relative h-[48vh] md:h-auto overflow-hidden">
+        <div className="w-full md:w-5/12 relative md:h-auto overflow-hidden">
           <Image
             src="/abg.PNG"
             alt="Hero Background"
@@ -86,7 +89,7 @@ export default function Services() {
           />
         </div>
 
-        <div className="flex flex-col h-[48vh] md:flex-row items-center justify-between w-screen px-6 md:px-16 py-8 bg-[#0b1a2f] text-white">
+        <div className="flex flex-col md:flex-row items-center justify-between w-screen px-6 md:px-16 py-8 bg-[#0b1a2f] text-white">
           <div className="w-full md:w-1/2 space-y-4">
             <h2 className="text-yellow-400 text-2xl md:text-3xl font-serif font-semibold">
               ⚠️ The War For Data Is Here! <br />Is Your Business Truly Safe?
