@@ -160,7 +160,7 @@ export default function Services() {
               ))}
             </ul>
             <div className="mt-6 flex flex-wrap justify-center gap-2">
-              <a href="/contact">
+              <a href="/invest">
                 <button className="bg-yellow-400 text-black font-bold text-xs px-4 py-2 rounded-md hover:bg-yellow-300 transition">
                   🚀 Learn More
                 </button>
