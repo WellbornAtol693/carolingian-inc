@@ -5,21 +5,20 @@ import Link from 'next/link'
 import Footer from '@/components/Footer'
 
 const tiers = [
-  {
-    title: "The Empire Tier (Contact to Negotiate Price)",
-    image: "/hero2.PNG",
-    description: `• Full stack security and business intelligence.  
-• Military-grade protection, 24/7 monitoring, AI analytics, and crisis response.  
-• For businesses ready to dominate their industry.`,
+    {
+    title: "The Shield Tier ($750)",
+    image: "/website.PNG",
+    description: `• Get online fast with a professional, secure website.  
+• Perfect for new businesses or solo owners.  
+• Includes your .com domain, mobile-ready design, and hosting — all 100% built in the USA with zero outsourced code.  
+• Simple, strong, and ready to launch.`,
     features: [
-      "✅ All Fortress Tier features",
-      "✅ Military-grade cyber perimeter (Cloudflare, TLS, brute-force lockout)",
-      "✅ 24/7 security monitoring + daily backups",
-      "✅ Monthly Threat Report (AI-generated + analyst reviewed)",
-      "✅ Employee phishing tests + security training",
-      "✅ Custom AI dashboard for sales, traffic, and client insights",
-      "✅ Priority support + 2 free strategy calls per year",
-      "✅ Emergency recovery within 12 hours"
+      "✅ Custom 5-page .com website",
+      "✅ 1 year domain + secure hosting",
+      "✅ Mobile optimization & fast load speed",
+      "✅ Contact form + basic lead capture",
+      "✅ Branded color scheme + logo placement",
+      "✅ No outsourced code or code-free generating AI — 100% American programming development"
     ]
   },
   {
@@ -38,20 +37,21 @@ const tiers = [
       "✅ Setup of CRM email system (Mailchimp or Sendgrid)"
     ]
   },
-  {
-    title: "The Shield Tier ($750)",
-    image: "/website.PNG",
-    description: `• Get online fast with a professional, secure website.  
-• Perfect for new businesses or solo owners.  
-• Includes your .com domain, mobile-ready design, and hosting — all 100% built in the USA with zero outsourced code.  
-• Simple, strong, and ready to launch.`,
+    {
+    title: "The Empire Tier (Contact to Negotiate Price)",
+    image: "/hero2.PNG",
+    description: `• Full stack security and business intelligence.  
+• Military-grade protection, 24/7 monitoring, AI analytics, and crisis response.  
+• For businesses ready to dominate their industry.`,
     features: [
-      "✅ Custom 5-page .com website",
-      "✅ 1 year domain + secure hosting",
-      "✅ Mobile optimization & fast load speed",
-      "✅ Contact form + basic lead capture",
-      "✅ Branded color scheme + logo placement",
-      "✅ No outsourced code or code-free generating AI — 100% American programming development"
+      "✅ All Fortress Tier features",
+      "✅ Military-grade cyber perimeter (Cloudflare, TLS, brute-force lockout)",
+      "✅ 24/7 security monitoring + daily backups",
+      "✅ Monthly Threat Report (AI-generated + analyst reviewed)",
+      "✅ Employee phishing tests + security training",
+      "✅ Custom AI dashboard for sales, traffic, and client insights",
+      "✅ Priority support + 2 free strategy calls per year",
+      "✅ Emergency recovery within 12 hours"
     ]
   }
 ]
@@ -68,12 +68,13 @@ export default function Services() {
       <Link href="/">Carolingian Inc.</Link>
     </h1>
 
-          <nav className="hidden sm:flex space-x-4 text-gold text-sm ml-auto font-serif z-10">
-            <Link href="/" className="hover:text-white transition">Home</Link>
-            <Link href="/services" className="hover:text-white transition">Services</Link>
-            <Link href="/invest" className="hover:text-white transition">Invest</Link>
-            <Link href="/contact" className="hover:text-white transition">Contact</Link>
-          </nav>
+          {/* Nav Tabs */}
+          <nav className="hidden sm:flex space-x-4 font-serif text-gold z-10 ml-auto">
+      <Link href="/" className="hover:text-white transition">Home</Link>
+      <Link href="/services" className="hover:text-white transition">Services</Link>
+      <Link href="/invest" className="hover:text-white transition">Invest</Link>
+      <Link href="/contact" className="hover:text-white transition">Contact</Link>
+    </nav>
         </header>
       </section>
 
